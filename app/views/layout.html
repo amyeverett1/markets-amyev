@@ -4,10 +4,6 @@
   {% include "includes/head.html" %}
 {% endblock %}
 
-{% block cookie_message %}
-  <p>{{cookieText | safe }}</p>
-{% endblock %}
-
 {% block proposition_header %}
 
   <div class="header-proposition">
@@ -15,17 +11,17 @@
       <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
       <nav id="proposition-menu">
         <a href="/" id="proposition-name">
-          {# Set serviceName in config.js. Use a block to override on a page. #}
-          {% block service_name %}
-            {% if serviceName %} {{ serviceName }} {% endif %}
-          {% endblock %}
+         London Markets
         </a>
-        <!--
+        
         <ul id="proposition-links">
-          <li><a href="url-to-page-1" class="active">Navigation item #1</a></li>
-          <li><a href="url-to-page-2">Navigation item #2</a></li>
+          <li><a href="url-to-page-1" class="active">Introduction</a></li>
+          <li><a href="url-to-page-2">Seller One</a></li>
+            <li><a href="url-to-page-2">Seller Two</a></li>
+            <li><a href="url-to-page-2">Customer One</a></li>
+            <li><a href="url-to-page-2">Conclusion</a></li>
         </ul>
-        -->
+        
       </nav>
     </div>
   </div>
