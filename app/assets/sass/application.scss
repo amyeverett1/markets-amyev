@@ -180,6 +180,48 @@ h1 {
   text-decoration: underline;
 }
 
+
+@media (max-width: 769px) {
+  .text-box, .image-box {
+    width: 90%;
+    float:left;
+    border: none;
+    padding: 0;
+  }
+
+.image-box img {
+  max-width: 100%;
+}
+
+#proposition-links {
+  list-style: none;
+  }
+
+#global-header .header-proposition #proposition-links li {
+  width: 50%;
+  border: none;
+  text-align: left;
+  margin: 10px 0;
+}
+
+#global-header .header-proposition #proposition-links li a {
+    font-size: 1em;
+    padding: 10px;
+}
+
+.three .item, .two .item {
+    width: 95%;
+}
+
+.three .item-title, .two .item-title {
+  font-size:2em;
+  width: 90%;
+  left: 2.5%;
+}
+
+}
+
+
 @media (min-width: 641px) {
 .column-two-thirds {
     float: left;
