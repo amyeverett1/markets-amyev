@@ -82,9 +82,6 @@ app.use('/public', express.static(path.join(__dirname, '/govuk_modules/govuk_tem
 app.use('/public', express.static(path.join(__dirname, '/govuk_modules/govuk_frontend_toolkit')))
 app.use('/public/images/icons', express.static(path.join(__dirname, '/govuk_modules/govuk_frontend_toolkit/images')))
 
-// Elements refers to icon folder instead of images folder
-app.use(favicon(path.join(__dirname, 'govuk_modules', 'govuk_template', 'assets', 'images', 'favicon.ico')))
-
 // Set up documentation app
 if (useDocumentation) {
   var documentationViews = [path.join(__dirname, '/docs/views/'), path.join(__dirname, '/lib/')]
