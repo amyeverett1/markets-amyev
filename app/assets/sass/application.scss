@@ -34,3 +34,62 @@ h1 {
     font-family: 'Do Hyeon', sans-serif!important;
     text-transform: uppercase!important;
 }
+
+.context-box {
+  width: 100%;
+  border-top: 1px solid #ABABAB;
+}
+
+.controls {
+    float: left;
+    width: 20%;
+    font-size: 70%;
+}
+
+.control_lead {
+  padding: 2em 0;
+  border-bottom: 1px solid #ABABAB;
+  width: 100%;
+}
+
+.controls h3 {
+  float: left;
+  padding: 2em 0 1em 0;
+}
+.items-box {
+  float: right;
+  width: 79%;
+  border-left: 1px solid #ABABAB;
+}
+
+.item {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  display: inline;
+}
+
+#global-header #logo {
+    background: none!important;
+    font-family: 'Do Hyeon', sans-serif!important;
+    text-transform: uppercase!important;
+}
+
+.multiple-choice {
+  margin-bottom: 1em;
+}
+
+
+@media (min-width: 641px) {
+.column-two-thirds {
+    float: left;
+    width: 100%;
+}
+}
+
+@media (min-width: 769px) {
+#global-header.with-proposition .header-wrapper .header-proposition {
+    width: 100%;
+    float: left;
+}
+}
