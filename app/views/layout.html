@@ -25,22 +25,30 @@
     </div>
   </div>
 
+
 {% endblock %}
 
 {% block header_class %}
   with-proposition
 {% endblock %}
-
+ 
 {% block footer_support_links %}
   {% if useAutoStoreData %}
  
   {% endif %}
+  
 {% endblock %}
 
+
+
 {% block body_end %}
+
   {% block scripts %}
     {% include "includes/scripts.html" %}
     {% block page_scripts %}{% endblock %}
   {% endblock %}
   <!-- GOV.UK Prototype kit {{releaseVersion}} -->
 {% endblock %}
+
+
+
