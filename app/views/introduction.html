@@ -1,10 +1,70 @@
-{% extends "layout.html" %}
 
-{% block page_title %}
-  Amy Everett, Digital Anthropology
-{% endblock %}
 
-{% block content %}
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="{{ html_lang|default('en') }}"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="{{ html_lang|default('en') }}"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Digital Markets, Digital Anthropology, University College London</title>
+
+    <!--[if gt IE 8]><!--><link href="/public/stylesheets/govuk-template.css?0.22.3" media="screen" rel="stylesheet" /><!--<![endif]-->
+    <!--[if IE 6]><link href="/public/stylesheets/govuk-template-ie6.css?0.22.3" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 7]><link href="/public/stylesheets/govuk-template-ie7.css?0.22.3" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 8]><link href="/public/stylesheets/govuk-template-ie8.css?0.22.3" media="screen" rel="stylesheet" /><![endif]-->
+    <link href="/public/stylesheets/govuk-template-print.css?0.22.3" media="print" rel="stylesheet" />
+
+    <!--[if IE 8]><link href="/public/stylesheets/fonts-ie8.css?0.22.3" media="all" rel="stylesheet" /><![endif]-->
+    <!--[if gte IE 9]><!--><link href="/public/stylesheets/fonts.css?0.22.3" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if lt IE 9]><script src="/public/javascripts/ie.js?0.22.3"></script><![endif]-->
+        <!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+
+
+  
+    <meta name="theme-color" content="#0b0c0c" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body class="">
+   
+
+    <div class="banner-top"></div>
+    
+    <header role="banner" id="global-header" >
+      <div class="header-wrapper">
+        <div class="header-global">
+          <div class="header-logo">
+            <a href="#" id="logo" class="content">
+              Digital Markets
+            </a>
+          </div>
+ 
+        </div>
+  <div class="header-proposition">
+    <div class="content">
+      <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
+      <nav id="proposition-menu">
+    
+        
+        <ul id="proposition-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="seller_one.html">Seller One</a></li>
+            <li><a href="seller_two.html">Seller Two</a></li>
+            <li><a href="customer_one.html">Customer</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+        </ul>
+        
+      </nav>
+    </div>
+  </div>
+      </div>
+      
+    </header>
+    
 
 <main id="content" role="main">
   <div class="grid-row">
@@ -55,6 +115,27 @@
   </div>
 </main>
 
-{% endblock %}
+<footer class="group js-footer" id="footer" role="contentinfo">
+  <div class="banner-top"></div>
+      <div class="footer-wrapper">
+  <p>Designed and built by <a href="mailto:a.everett@ucl.ac.uk">Amy Everett</a> for London Markets project, University College London 2017-18.</p>
+  <p>Image credit to <a href="https://www.trouva.com/">Trouva</a> and <a href="http://www.unsplash.com">Unsplash</a>.</p>
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+    
+          </div>
+        
+        </div>
+      </div>
+    </footer>
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="{{ asset_path }}javascripts/govuk-template.js?0.22.3"></script>
+
+  
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  </body>
+</html>
 
 
